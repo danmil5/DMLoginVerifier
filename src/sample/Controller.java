@@ -17,7 +17,7 @@ public class Controller {
         else if (user.getText().equals("Emma") && pass.getText().equals("Jones")) {
             actiontarget.setText("Welcome back emma.jones@example.com");
         }
-        else if (user.getText().equals("Emma") && pass.getText().equals("Jones")) {
+        else if (user.getText().equals("Ethan") && pass.getText().equals("Williams")) {
             actiontarget.setText("Welcome back ethan.william@example.com");
         }
         else if (user.getText().equals("Isabella") && pass.getText().equals("Johnson")) {
