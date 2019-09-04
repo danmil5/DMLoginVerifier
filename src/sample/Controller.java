@@ -39,7 +39,9 @@ public class Controller {
             actiontarget.setText("Invalid Login Credentials");
         }
         if (loggedin) {
-            Stage stage = new Stage();
+
+
+            Stage stage = Main.getPrimaryStage();
             stage.setTitle("Scene 2");
             try {
                 Pane myPane = (Pane) FXMLLoader.load(getClass().getResource
